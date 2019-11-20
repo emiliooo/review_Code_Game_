@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OWN GAME</title>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <button onclick="buyProject()">Buy project</button>
+    <button id="newDev" onclick="addDev()">Employ developer</button>
+    <button id="newTester" onclick="buyProject()">Employ tester</button>
+    <div id="budget"> </div>
+        <div id="header-group">
+            <div class="header">OWNER</div>
+            <div class="header">BACKLOG</div>
+            <div class="header">DEVELOPERS</div>
+            <div class="header">TESTER</div>
+        </div>
+        <div class="field">
+            <ul id="owner" class="block">
+            </ul>
+            <ul id="backlog" class="block">
+            </ul>
+            <ul id="developer" class="block">
+            </ul>
+            <ul id="tester" class="block">
+            </ul>
+        </div>
+    </table>
+
+    <div class="state">
+        <div class="startProject"><button onclick="startProject()">Start Projekt </button> </div>
+        <div class="owner"><button onclick="owner()">Owner:1 </button> </div>
+        <div ><button id="developers" onclick="developers()">  </button> </div>
+        <div class="testers"><button onclick="tester()"> Testers:0 </button></div>
+    </div>
+
+
+    <script src="file.js"></script>
+</body>
+
+</html>

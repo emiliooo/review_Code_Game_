@@ -1,0 +1,77 @@
+   body{
+       font-family: cursive;
+   }
+   
+   
+   .block {
+       width: 500px;
+       height: 400px;
+       border: 1px solid black;
+       margin: 0;
+   }
+
+   .field {
+        display: flex;
+        font-size: 25px;
+   }
+
+   #budget {
+       font-size: 30px;
+       color: blueviolet;
+   }
+
+   .block p {
+       width: 226px;
+       height: 50px;
+       border: 1px solid red;
+       text-align: center;
+   }
+
+   li {
+       cursor: pointer;
+   }
+
+   .header {
+        width: 500px;
+        height: 40px;
+        border: 6px solid #f86ad0fa;
+        text-align: center;
+        font-size: 22px;
+        margin: 15px;
+        padding-top: 18px;
+        font-family: cursive;
+   }
+
+   #header-group {
+       display: flex;
+   }
+
+   .active {
+       color: greenyellow;
+       border: 2px solid;
+       padding: 4px;
+   }
+
+   .backlogActive,
+   .developActive,
+   .testerActive{
+       color: #3146e6;
+       border: 2px solid;
+       padding: 4px;
+   }
+
+   button {
+       width: 100px;
+       height: 34px;
+       margin: 9px;
+       cursor: pointer;
+   }
+
+   .state {
+       display: flex;
+   }
+
+   #newDev,
+   #newTester{
+       display: none;
+   }
